@@ -31,6 +31,7 @@ web site</a>:
 <li><b>Sub_metering_1</b>: energy sub-metering No. 1 (in watt-hour of active energy). It corresponds to the kitchen, containing mainly a dishwasher, an oven and a microwave (hot plates are not electric but gas powered). </li>
 <li><b>Sub_metering_2</b>: energy sub-metering No. 2 (in watt-hour of active energy). It corresponds to the laundry room, containing a washing-machine, a tumble-drier, a refrigerator and a light. </li>
 <li><b>Sub_metering_3</b>: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.</li>
+
 </ol>
 
 ## Loading the data
@@ -50,12 +51,15 @@ memory (most modern computers should be fine).
 2007-02-02. One alternative is to read the data from just those dates
 rather than reading in the entire dataset and subsetting to those
 dates.
+Update: I have chosen for reading all data and subsetting only those two days
 
 * You may find it useful to convert the Date and Time variables to
 Date/Time classes in R using the `strptime()` and `as.Date()`
 functions.
+Update: in this exercise I have included an variable DateTime to be used as one variable
 
 * Note that in this dataset missing values are coded as `?`.
+Update: this has been taken care of in the reading of the data
 
 
 ## Making Plots
