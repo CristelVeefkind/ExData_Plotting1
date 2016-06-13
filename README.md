@@ -116,3 +116,7 @@ The four plots that you will need to construct are shown below.
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
+
+Update from Christel:
+In this repository you will find the R scripts for reading in the data, subset it and create the plots.
+It assumes the working directory is also the directory where the data resides and where the plots will be written to
